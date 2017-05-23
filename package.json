@@ -1,0 +1,41 @@
+{
+  "name": "onboarding-react",
+  "version": "1.0.0",
+  "description": "github onboarding application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --history-api-fallback --open",
+    "prod": "nodemon server.js",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "compression-webpack-plugin": "^0.4.0",
+    "config": "^1.26.1",
+    "css-loader": "^0.28.2",
+    "express": "^4.15.3",
+    "express-http-proxy": "^1.0.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "postcss-loader": "^2.0.5",
+    "ramda": "^0.23.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.18.0",
+    "webpack": "^2.2.1",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-closure-compiler": "^2.1.4",
+    "webpack-dev-server": "^2.4.1",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}
