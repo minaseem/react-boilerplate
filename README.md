@@ -5,8 +5,8 @@ pre-setup for
 - react
 - autoprefixer
 - webpack
-- separate webpack config for different enviroments
 - hot module reloading
+- separate webpack config for different enviroments
 
 For production environment: 
 
